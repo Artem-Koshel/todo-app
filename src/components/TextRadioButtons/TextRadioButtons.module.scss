@@ -1,0 +1,15 @@
+.textRadioButtons {
+    label {
+        margin-left: 10px;
+        cursor: pointer;
+        font-weight: bold;
+    }
+    
+    input {
+        display: none;
+    }
+
+    .checked {
+        color: #968ff2;
+    }
+}

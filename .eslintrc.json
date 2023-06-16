@@ -5,7 +5,8 @@
     },
     "extends": [
         "plugin:react/recommended",
-        "airbnb"
+        "airbnb",
+        "prettier"
     ],
     "overrides": [
         {
@@ -23,11 +24,16 @@
     },
     "plugins": [
         "react",
-        "react-hooks"
+        "react-hooks",
+        "prettier"
     ],
     "rules": {
         "no-use-before-define": "off",
         "react/jsx-filename-extension": [1, { "extensions": [".js", ".jsx"] }],
-        "react/jsx-one-expression-per-line": "off"
+        "react/jsx-one-expression-per-line": "off",
+        "no-param-reassign": ["error", {
+            "props": true,
+            "ignorePropertyModificationsFor": [ "state" ]
+          }]
     }
 }

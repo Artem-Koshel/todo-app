@@ -1,0 +1,20 @@
+.list {
+    margin-top: 30px;
+    padding: 0;
+    background-color: white;
+    box-shadow: 1px 1px 50px lightgray;
+    border-radius: 5px;
+    
+    ul {
+        padding: 0;
+        margin: 0;
+        list-style-type: none;
+
+        li {
+            padding: 0;
+            margin: 0;
+            border-bottom: 1px solid lightgray;
+        }
+    }
+}
+

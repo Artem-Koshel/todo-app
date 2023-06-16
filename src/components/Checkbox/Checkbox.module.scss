@@ -1,0 +1,42 @@
+.checkbox {
+    display: flex;
+    cursor: pointer;
+
+    input[type="checkbox"] {
+        display: none;
+    }
+
+    .styledCheckbox {
+        width: 25px;
+        height: 25px;
+        box-sizing: border-box;
+        border-radius: 50%;
+        position: relative;
+
+        .checkmark {
+            position: absolute;
+            inset: 0;
+            margin: auto;
+        }
+    }
+
+    .checked {
+        background: linear-gradient(135deg,#7fbef4,#a473f0);
+        background-size: cover;
+    }
+
+    .unchecked {
+        border: 1px solid lightgrey;
+    }
+}
+
+.itemText {
+    margin-left: 15px;
+    line-height: 25px;
+     
+    &.crossed {
+        color: lightgray;
+        text-decoration: line-through;
+    }
+}
+
