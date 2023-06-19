@@ -1,0 +1,36 @@
+// Jest Snapshot v1, https://goo.gl/fbAQLP
+
+exports[`List component renders correctly 1`] = `
+<div>
+  <div
+    class="list"
+  >
+    <ul>
+      <li>
+        <span
+          data-testid="1"
+        >
+          text 1
+        </span>
+      </li>
+      <li>
+        <span
+          data-testid="2"
+        >
+          text 2
+        </span>
+      </li>
+      <li>
+        <span
+          data-testid="3"
+        >
+          text 3
+        </span>
+      </li>
+    </ul>
+    <div
+      data-testid="control-bar-id"
+    />
+  </div>
+</div>
+`;

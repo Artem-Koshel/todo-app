@@ -1,0 +1,52 @@
+// Jest Snapshot v1, https://goo.gl/fbAQLP
+
+exports[`TextRadioButtons component renders correctly 1`] = `
+<div>
+  <div
+    class="textRadioButtons"
+  >
+    <label
+      for="value1"
+    >
+      <input
+        id="value1"
+        name="test name"
+        type="radio"
+        value="value1"
+      />
+      <span>
+        value1
+      </span>
+    </label>
+    <label
+      for="value2"
+    >
+      <input
+        checked=""
+        id="value2"
+        name="test name"
+        type="radio"
+        value="value2"
+      />
+      <span
+        class="checked"
+      >
+        value2
+      </span>
+    </label>
+    <label
+      for="value3"
+    >
+      <input
+        id="value3"
+        name="test name"
+        type="radio"
+        value="value3"
+      />
+      <span>
+        value3
+      </span>
+    </label>
+  </div>
+</div>
+`;
