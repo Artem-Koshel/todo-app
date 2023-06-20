@@ -1,0 +1,16 @@
+.todoInput {
+    height: 50px;
+    border-radius: 5px;
+    box-shadow: 1px 1px 50px lightgray;
+    border: 0;
+    padding: 2px 15px;
+    font-family: inherit;
+    font-size: large;
+    outline: none;
+
+    &::placeholder {
+        opacity: .4;
+        font-size: large;
+        font-family: inherit;
+    }
+}

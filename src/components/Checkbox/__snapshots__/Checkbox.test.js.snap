@@ -1,0 +1,54 @@
+// Jest Snapshot v1, https://goo.gl/fbAQLP
+
+exports[`Checkbox component renders correctly, checked: false 1`] = `
+<div>
+  <label
+    class="checkbox"
+    for="testId"
+  >
+    <div
+      class="styledCheckbox unchecked"
+    />
+    <input
+      id="testId"
+      type="checkbox"
+    />
+    <span
+      class="itemText undefined"
+    >
+      label text
+    </span>
+  </label>
+</div>
+`;
+
+exports[`Checkbox component renders correctly, checked: true 1`] = `
+<div>
+  <label
+    class="checkbox"
+    for="testId"
+  >
+    <div
+      class="styledCheckbox checked"
+    >
+      <svg
+        class="checkmark"
+        height="15px"
+        width="15px"
+      >
+        checkmark.svg
+      </svg>
+    </div>
+    <input
+      checked=""
+      id="testId"
+      type="checkbox"
+    />
+    <span
+      class="itemText crossed"
+    >
+      label text
+    </span>
+  </label>
+</div>
+`;

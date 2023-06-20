@@ -1,0 +1,15 @@
+.todoItem {
+    display: flex;
+    justify-content: space-between;
+    margin: 15px;
+    font-weight: 400;
+}
+
+.cross {
+    background: none;
+    border: none;
+    height: 25px;
+    width: 25px;
+    cursor: pointer;
+    background-image: url("./cross.svg");
+}

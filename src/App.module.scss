@@ -1,0 +1,14 @@
+.app {
+  text-align: center;
+  position: relative;
+  width: 100%;
+}
+
+.appHeader {
+  background: linear-gradient(to left,#7fbef4cc,#a473f0cc),url("./mountains.jpg");
+  background-size: cover;
+  color: white;
+  height: 250px;
+  position: absolute;
+  width: 100%;
+}

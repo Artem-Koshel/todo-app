@@ -1,0 +1,19 @@
+// Jest Snapshot v1, https://goo.gl/fbAQLP
+
+exports[`ToDoContainer component renders correctly 1`] = `
+<div>
+  <div
+    class="todoContainer"
+  >
+    <h1>
+      TODO
+    </h1>
+    <div
+      data-testid="input"
+    />
+    <div
+      data-testid="list"
+    />
+  </div>
+</div>
+`;

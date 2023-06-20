@@ -1,0 +1,19 @@
+.controlBar {
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    padding: 10px 30px;
+    font-size: small;
+    color: gray;
+    height: 25px;
+}
+
+.clearCompleted {
+    border: none;
+    background: none;
+    padding: 0;
+    font-size: small;
+    color: gray;
+    cursor: pointer;
+    font-family: inherit;
+}

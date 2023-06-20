@@ -1,0 +1,24 @@
+// Jest Snapshot v1, https://goo.gl/fbAQLP
+
+exports[`ControlBar component renders correctly 1`] = `
+<div>
+  <div
+    class="controlBar"
+  >
+    <span
+      class="filters"
+    >
+      1 items left
+    </span>
+    <div
+      data-testid="text-radio-buttons"
+    />
+    <button
+      class="clearCompleted"
+      type="button"
+    >
+      Clear completed
+    </button>
+  </div>
+</div>
+`;
