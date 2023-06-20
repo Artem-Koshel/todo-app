@@ -22,7 +22,7 @@
     "build": "react-scripts build",
     "test": "react-scripts test",
     "eject": "react-scripts eject",
-    "lint": "npx eslint src/**/*.js",
+    "lint": "npx eslint src/**/*.js & npx stylelint src/**/*.scss",
     "cypress": "cypress open"
   },
   "jest": {
