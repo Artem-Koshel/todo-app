@@ -22,13 +22,16 @@
     "build": "react-scripts build",
     "test": "react-scripts test",
     "eject": "react-scripts eject",
-    "lint": "npx eslint src/**/*.js"
+    "lint": "npx eslint src/**/*.js",
+    "cypress": "cypress open"
   },
   "jest": {
     "transform": {
       "^.+\\.js?$": "babel-jest"
     },
-    "transformIgnorePatterns": ["node_modules/(?!@nanoid)/"]
+    "transformIgnorePatterns": [
+      "node_modules/(?!@nanoid)/"
+    ]
   },
   "eslintConfig": {
     "extends": [
@@ -49,6 +52,7 @@
     ]
   },
   "devDependencies": {
+    "cypress": "^12.14.0",
     "eslint": "^8.41.0",
     "eslint-config-airbnb": "^19.0.4",
     "eslint-config-prettier": "^8.8.0",
